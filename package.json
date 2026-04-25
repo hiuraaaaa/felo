@@ -1,0 +1,26 @@
+{
+  "name": "felo",
+  "version": "1.0.0",
+  "description": "Unofficial Node.js client untuk [Felo AI](https://felo.ai) — reverse-engineered dari web API-nya langsung. Mendukung login, pencarian AI dengan streaming, dan akses tanpa login (guest mode).",
+  "main": "felo.js",
+  "devDependencies": {},
+  "scripts": {
+    "start": "node tes.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/XBotzLauncher/felo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "type": "commonjs",
+  "dependencies": {
+    "crypto": "^1.0.1",
+    "https": "^1.0.0"
+  },
+  "bugs": {
+    "url": "https://github.com/XBotzLauncher/felo/issues"
+  },
+  "homepage": "https://github.com/XBotzLauncher/felo#readme"
+}
