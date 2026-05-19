@@ -2,9 +2,9 @@ const { FeloClient } = require('./felo');
 
 (async () => {
   const client = new FeloClient();
-  /*
-  await client.login('example@gmail.com', 'sha256'); // Opsional
-  */
+  
+  await client.login('xnnn2006@gmail.com', 'ROBIN12345'); // Opsional
+  
 
   const { answer, sources } = await client.search('kamu siapa?', {
     onChunk: chunk => process.stdout.write(chunk)
