@@ -3,7 +3,7 @@ const { FeloClient } = require('./felo');
 (async () => {
   const client = new FeloClient();
   
-  await client.login('xnnn2006@gmail.com', 'ROBIN12345'); // Opsional
+  await client.login('xnnn2006@gmail.com', 'EOBIN12345'); // Opsional
   
 
   const { answer, sources } = await client.search('kamu siapa?', {
